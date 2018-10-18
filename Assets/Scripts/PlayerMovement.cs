@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
 	private int burger = 0;
 	private int salad = 0;
 	
-	string targetTag;
+	string targetTag = "";
 	
 	public Text foodPickup;
 	public Text gameTimerText;
@@ -80,7 +80,11 @@ public class PlayerMovement : MonoBehaviour
 
 			 if (Physics.Raycast(playerRay, out eyeRayHit, playerRayDistance))
 			 {
-				 if (eyeRayHit.collider.tag == "Pizza")
+				 if (eyeRayHit.collider.tag == null)
+				 {
+					 Debug.Log("Not in front of tag");
+				 }
+				 else if (eyeRayHit.collider.tag == "Pizza")
 				 {
 					 foodPickup.text = "Press space to pick up Pizza!";
 					 if (Input.GetKey(KeyCode.Space))

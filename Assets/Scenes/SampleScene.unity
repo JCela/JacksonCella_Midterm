@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -52,7 +52,7 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
+    m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 10
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 804f04d2d48d4484ca6ded69cc06fa40,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -171,7 +172,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -374,6 +375,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.1833
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
   m_IsPrefabAsset: 0
@@ -483,7 +488,7 @@ GameObject:
   m_TagString: House1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &79322837
 Transform:
@@ -573,7 +578,7 @@ GameObject:
   m_TagString: House5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &124261536
 Transform:
@@ -743,7 +748,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &158764029
 Transform:
@@ -878,6 +883,10 @@ Prefab:
     - target: {fileID: 400000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
       propertyPath: m_LocalScale.y
       value: 1.5762
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
@@ -1018,7 +1027,7 @@ BoxCollider:
   m_GameObject: {fileID: 208863134}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1228,7 +1237,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1252,7 +1261,7 @@ GameObject:
   m_TagString: Salad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &250281948
 BoxCollider:
@@ -1342,7 +1351,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &364379415
 Transform:
@@ -1469,7 +1478,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1573,7 +1582,7 @@ GameObject:
   m_TagString: House2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &436699452
 Transform:
@@ -1658,7 +1667,7 @@ GameObject:
   m_TagString: Pizza
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &442239704
 BoxCollider:
@@ -2139,6 +2148,10 @@ Prefab:
       propertyPath: m_TagString
       value: House7
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
   m_IsPrefabAsset: 0
@@ -2243,7 +2256,7 @@ GameObject:
   m_TagString: House13
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &613025753
 Transform:
@@ -2370,7 +2383,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2436,6 +2449,10 @@ Prefab:
     - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
       propertyPath: m_TagString
       value: House16
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
@@ -2570,7 +2587,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2653,6 +2670,10 @@ Prefab:
     - target: {fileID: 400000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.76104
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
@@ -3006,7 +3027,7 @@ GameObject:
   m_TagString: House12
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &848147024
 Transform:
@@ -3091,7 +3112,7 @@ GameObject:
   m_TagString: House11
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &888595465
 Transform:
@@ -3469,6 +3490,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.3017
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
   m_IsPrefabAsset: 0
@@ -3604,7 +3629,7 @@ GameObject:
   m_TagString: House9
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1021686531
 Transform:
@@ -3732,6 +3757,10 @@ Prefab:
       propertyPath: m_TagString
       value: House5
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
   m_IsPrefabAsset: 0
@@ -3751,7 +3780,7 @@ GameObject:
   m_TagString: House14
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1047655741
 Transform:
@@ -3895,6 +3924,10 @@ Prefab:
     - target: {fileID: 400000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.1283
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
@@ -4083,6 +4116,10 @@ Prefab:
     - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
       propertyPath: m_TagString
       value: House13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
@@ -4507,7 +4544,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1214559842
 BoxCollider:
@@ -4517,7 +4554,7 @@ BoxCollider:
   m_GameObject: {fileID: 1214559841}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -4592,7 +4629,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1221093485
 BoxCollider:
@@ -4677,7 +4714,7 @@ GameObject:
   m_TagString: House16
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1224227931
 Transform:
@@ -4813,6 +4850,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.446
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
   m_IsPrefabAsset: 0
@@ -4832,7 +4873,7 @@ GameObject:
   m_TagString: House10
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1258980928
 Transform:
@@ -4922,7 +4963,7 @@ GameObject:
   m_TagString: House7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1293105570
 Transform:
@@ -5215,6 +5256,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1.6203
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
   m_IsPrefabAsset: 0
@@ -5276,6 +5321,10 @@ Prefab:
     - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
       propertyPath: m_TagString
       value: House11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
@@ -5414,6 +5463,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 2.5889
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
   m_IsPrefabAsset: 0
@@ -5433,7 +5486,7 @@ GameObject:
   m_TagString: House15
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1621640142
 Transform:
@@ -5541,7 +5594,7 @@ SphereCollider:
   m_GameObject: {fileID: 1643282189}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -5646,6 +5699,10 @@ Prefab:
       propertyPath: m_TagString
       value: House9
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
   m_IsPrefabAsset: 0
@@ -5707,7 +5764,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5731,7 +5788,7 @@ GameObject:
   m_TagString: House8
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1707373818
 Transform:
@@ -6128,7 +6185,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -6237,7 +6294,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1801061121
 BoxCollider:
@@ -6364,7 +6421,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -6388,7 +6445,7 @@ GameObject:
   m_TagString: House3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1817167264
 Transform:
@@ -6473,7 +6530,7 @@ GameObject:
   m_TagString: Burger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1844354068
 BoxCollider:
@@ -6631,7 +6688,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -6655,7 +6712,7 @@ GameObject:
   m_TagString: House4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1869180388
 Transform:
@@ -6867,7 +6924,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -6891,7 +6948,7 @@ GameObject:
   m_TagString: House6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1893359716
 Transform:
@@ -7112,6 +7169,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 0.69247
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
   m_IsPrefabAsset: 0
@@ -7259,6 +7320,10 @@ Prefab:
       propertyPath: m_TagString
       value: House1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f65f28e9dffd41e7a5b3c01df9d044b, type: 3}
   m_IsPrefabAsset: 0
@@ -7365,7 +7430,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2068914173
 Transform:
@@ -7443,7 +7508,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
