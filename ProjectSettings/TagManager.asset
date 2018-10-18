@@ -29,6 +29,8 @@ TagManager:
   - House18
   - House19
   - House20
+  - Enemy
+  - Shop
   layers:
   - Default
   - TransparentFX
